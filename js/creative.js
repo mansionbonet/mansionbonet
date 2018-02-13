@@ -79,6 +79,12 @@
     // Optional parameters
     direction: 'horizontal',
     loop: true,
+    speed: 300,
+    effect: "fade",
+    autoplay: {
+      delay: 7000,
+      disableOnInteraction: false
+    },
 
     // If we need pagination
     pagination: {
@@ -95,6 +101,6 @@
     scrollbar: {
       el: '.swiper-scrollbar',
     },
-  })
+  });
 
 })(jQuery); // End of use strict
